@@ -212,3 +212,21 @@ body {
 .content-card:hover img {
   brightness: 0.4;
 }
+
+/* Netflix Badge */
+.netflix-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #e50914;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  z-index: 2;
+}
