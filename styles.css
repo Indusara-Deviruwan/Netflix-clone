@@ -138,3 +138,77 @@ body {
   background-color: rgba(109, 109, 110, 0.4);
 }
 
+/* Movie Sections */
+.container {
+  max-width: 100%;
+  padding: 0 4%;
+}
+
+/* Section Styles */
+.content-section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+/* Content Row */
+.content-row {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.content-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.content-row::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.content-row::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+.content-row::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Content Cards */
+.content-card {
+  position: relative;
+  min-width: 250px;
+  height: 140px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-card:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+}
+
+.content-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: brightness 0.3s ease;
+}
+
+.content-card:hover img {
+  brightness: 0.4;
+}
