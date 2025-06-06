@@ -330,3 +330,21 @@ body {
   font-size: 10px;
   font-weight: bold;
 }
+
+/* Button Icons */
+.play-btn::before {
+  content: "▶";
+}
+
+.check-btn::before {
+  content: "✓";
+}
+
+.thumbs-btn::before {
+  content: "👍";
+}
+
+.more-btn::before {
+  content: "▾";
+  font-size: 18px;
+}
