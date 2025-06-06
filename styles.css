@@ -410,3 +410,128 @@ body {
   .content-row {
     gap: 10px;
   }
+
+  /* Mobile overlay adjustments */
+  .card-overlay {
+    padding: 10px;
+  }
+
+  .overlay-title {
+    font-size: 14px;
+  }
+
+  .control-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .overlay-controls {
+    gap: 6px;
+  }
+
+  .info-badge {
+    font-size: 9px;
+    padding: 2px 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1%;
+  }
+
+  .content-card {
+    min-width: 150px;
+    height: 85px;
+  }
+
+  .large-card {
+    min-width: 200px;
+    height: 85px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .netflix-badge {
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    top: 4px;
+    left: 4px;
+  }
+
+  .content-row {
+    gap: 8px;
+  }
+
+  .content-section {
+    margin-bottom: 25px;
+  }
+
+  /* Small mobile overlay adjustments */
+  .card-overlay {
+    padding: 8px;
+  }
+
+  .overlay-title {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .control-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .overlay-controls {
+    gap: 4px;
+    margin-bottom: 6px;
+  }
+
+  .info-badge {
+    font-size: 8px;
+    padding: 1px 3px;
+  }
+
+  .overlay-genres {
+    font-size: 9px;
+    gap: 6px;
+  }
+
+  .overlay-info {
+    gap: 6px;
+    margin-bottom: 6px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .hero {
+    height: 60vh;
+    padding: 0 20px;
+  }
+
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .movie-section {
+    padding: 20px;
+  }
+}
