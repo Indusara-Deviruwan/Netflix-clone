@@ -365,3 +365,48 @@ body {
   );
   z-index: 1;
 }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 3%;
+  }
+
+  .content-card {
+    min-width: 220px;
+    height: 125px;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2%;
+  }
+
+  .content-section {
+    margin-bottom: 35px;
+  }
+
+  .content-card {
+    min-width: 180px;
+    height: 100px;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+
+  .netflix-badge {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+  .content-row {
+    gap: 10px;
+  }
